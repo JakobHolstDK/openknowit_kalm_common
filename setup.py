@@ -1,14 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='openknowit_kalm_common',
-    version='0.1',
+    name='produktion',
+    version='1.0.0',
     packages=find_packages(),
-    install_requires=[
-        # List of dependencies
-    ],
-    entry_points='''
-        [console_scripts]
-        openknowit_kalm_common=openknowit_kalm_common.cli:main
-    '''
+    install_requires=[],
 )
